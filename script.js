@@ -38,7 +38,7 @@ CALCULAR.addEventListener('click', () =>{
          FLU.style.display = 'block';
          MAN.style.display = 'block';
          TITULO.innerHTML = 'Calculo por Superficie Corporal';
-         LISTA.innerHTML = 'Cuando el niño tiene más de 30kg: Se calcula la hidratación basal usando el método de superficie corporal.';
+         LISTA.innerHTML = '<li>Cuando el niño tiene más de 30kg: Se calcula la hidratación basal usando el método de superficie corporal</li> <li>Secalcula usando la siguiente formula</li> <li>Superficie corporal = ( (peso * 4) + 7) / (peso + 90)</li>';
 
     }else{
         ERROR.innerHTML = '*Peso permitido hasta los 100 kg'
