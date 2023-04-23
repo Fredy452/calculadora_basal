@@ -63,6 +63,7 @@ button{
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: transform 20ms ease-in;
+    margin-top: 20px;
 }
 button:active{
     transform: scale(0.95);
@@ -78,7 +79,4 @@ button:active{
     font-size: 25px;
     margin-bottom: 5px;
     display: none;
-}
-.item{
-    margin: 20px;
 }
